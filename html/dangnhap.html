@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dangky.css">
+    <script src="../js/dangky.js"></script>
+</head>
+<body>
+    <h2 align="center">ĐĂNG NHẬP</h2>
+    <form action="" onsubmit="return SubmitForm();" method="post">
+        <div>
+            <label for="txtDN" class="title">Tên đăng nhập: </label>
+            <input type="text" name="txtDN" id="txtDN" onblur="return KiemTraTenDN();" size="30" placeholder="txtDN">
+            <span id="tendn">*</span>
+        </div>
+        <div>
+            <label for="txtMK" class="title">Mật khẩu: </label>
+            <input type="password" name="txtMK" id="txtMK" onblur="return KiemTraPassWord();" size="30" placeholder="txtMK">
+            <span id="mk">*</span>
+        </div>
+        
+        <div class="submit">
+            <input type="submit" value="Đăng nhập" id="submit">
+            <input type="reset" value="Hủy" id="submit">
+        </div>
+    </form>
+</body>
+</html>

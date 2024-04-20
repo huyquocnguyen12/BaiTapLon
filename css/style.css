@@ -1,0 +1,92 @@
+[class*=col-]{
+    padding: 0px;
+    margin: 0px;
+}
+/* CSS cho cột thứ hai */
+.user-options a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+.col-md-8 {
+    background: rgba(0, 0, 0, 0.8); /* Màu đen với độ mờ 50% */
+    padding: 20px; /* Thêm padding để nội dung không bị che phủ bởi nền đen mờ */
+}
+.search-form {
+    margin-top: 20px;
+}
+
+.search-form input {
+    padding: 8px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background-color: #439af8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0866ca;
+}
+
+.user-options {
+    margin-top: 20px;
+}
+
+.cart-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.row p{
+    color: red;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* CSS detail */
+.sony_detail {
+    padding-top: 30px;
+}
+.sony_detail button{
+    margin: 30px auto;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 70px;
+    font-size: 25px;
+}
+.sony_detail button:hover{
+    background-color: rgb(38, 113, 242);
+}
+.row-row{
+    border-top: 1px solid gainsboro;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
